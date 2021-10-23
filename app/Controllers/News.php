@@ -10,10 +10,10 @@ class News extends Controller
     public function index()
     {
         $model = new NewsModel();
-
+        $sssss = 'asdasdasdasdas';
         $data = [
             'news'  => $model->getNews(),
-            'title' => 'News archive',
+            'title' => 'News archives',
         ];
 
         echo view('templates/header', $data);
